@@ -1,0 +1,20 @@
+{
+    "name": "BeansJS",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "The beans.js Chrome extension!",
+    "homepage_url": "https://github.com/LilyyDev",
+    "background": {
+      "scripts": [
+        "inject.js"
+      ],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Click here to inject beans!"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+}
